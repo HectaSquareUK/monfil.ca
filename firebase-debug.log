@@ -22,3 +22,61 @@
 [error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
 [error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
 [debug] [2025-10-06T02:42:06.369Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-10-06T02:49:18.794Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-10-06T02:49:34.978Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-10-06T02:49:34.997Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2025-10-06T02:49:34.999Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"fef3eb35-2db0-482d-88eb-784200cc58f0"}
+[debug] [2025-10-06T02:49:35.476Z] <<< [apiv2][status] POST https://auth.firebase.tools/attest 200
+[debug] [2025-10-06T02:49:35.477Z] <<< [apiv2][body] POST https://auth.firebase.tools/attest {"token":"CRdMC9GXtzXwvjkSkNlDEgdqv4xwrfncXcRc77HBmg4"}
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-10-06T02:52:06.651Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-10-06T02:52:06.653Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2025-10-06T02:52:06.657Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"fbeb90b8-f16f-4e07-9613-b28ddbb86c88"}
+[debug] [2025-10-06T02:52:06.972Z] <<< [apiv2][status] POST https://auth.firebase.tools/attest 200
+[debug] [2025-10-06T02:52:06.976Z] <<< [apiv2][body] POST https://auth.firebase.tools/attest {"token":"4BQf7FeTjZA-kQNLzV9EDF5nAHvhnoLz2zMeoZBfxHE"}
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-10-06T02:53:28.423Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-10-06T02:53:28.426Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2025-10-06T02:53:28.426Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2025-10-06T02:53:28.473Z] <<< [apiv2][status] POST https://accounts.google.com/o/oauth2/token 200
+[debug] [2025-10-06T02:53:28.473Z] <<< [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-10-06T02:54:20.110Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-10-06T02:54:20.110Z] > authorizing via signed-in user (support@videonprompt.com)
+[debug] [2025-10-06T02:54:20.112Z] Checked if tokens are valid: true, expires at: 1759722807476
+[debug] [2025-10-06T02:54:20.112Z] Checked if tokens are valid: true, expires at: 1759722807476
+[debug] [2025-10-06T02:54:20.112Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/studio-1583480198-5f49c/services/cloudresourcemanager.googleapis.com [none]
+[debug] [2025-10-06T02:54:20.112Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/studio-1583480198-5f49c/services/cloudresourcemanager.googleapis.com x-goog-quota-user=projects/studio-1583480198-5f49c
+[debug] [2025-10-06T02:54:21.270Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/studio-1583480198-5f49c/services/cloudresourcemanager.googleapis.com 200
+[debug] [2025-10-06T02:54:21.273Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/studio-1583480198-5f49c/services/cloudresourcemanager.googleapis.com [omitted]
+[debug] [2025-10-06T02:54:21.280Z] Checked if tokens are valid: true, expires at: 1759722807476
+[debug] [2025-10-06T02:54:21.281Z] Checked if tokens are valid: true, expires at: 1759722807476
+[debug] [2025-10-06T02:54:21.281Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/studio-1583480198-5f49c [none]
+[debug] [2025-10-06T02:54:22.111Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/studio-1583480198-5f49c 200
+[debug] [2025-10-06T02:54:22.112Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/studio-1583480198-5f49c {"projectNumber":"168143330347","projectId":"studio-1583480198-5f49c","lifecycleState":"ACTIVE","name":"MONFIL APP","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-10-05T17:56:27.834892Z","parent":{"type":"organization","id":"1016085981704"}}
+[info] Updating Studio Workspace active project to match Firebase CLI 'studio-1583480198-5f49c'
+[error] Failed to update Firebase Project for Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[info] Now using project studio-1583480198-5f49c
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-10-06T02:54:32.992Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-10-06T02:54:32.993Z] > authorizing via signed-in user (support@videonprompt.com)
+[info] 
+=== Firestore Setup Actuation
+[info] ✔  Wrote firestore.rules 
+[info] ✔  Wrote firestore.indexes.json 
+[info] ✔  Wrote configuration info to firebase.json 
+[info] ✔  Wrote project information to .firebaserc 
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-10-06T02:54:54.341Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-10-06T02:54:54.341Z] > authorizing via signed-in user (support@videonprompt.com)
+[info] ✔  Wrote configuration info to firebase.json 
+[info] ✔  Wrote project information to .firebaserc 
