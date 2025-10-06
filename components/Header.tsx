@@ -1,7 +1,7 @@
 export default function Header() {
   return (
-    <header>
-      <h1>Monfil.ca</h1>
+    <header className="bg-gray-800 text-white p-4">
+      <h1 className="text-2xl font-bold">Monfil.ca</h1>
     </header>
   );
 }
