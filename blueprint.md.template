@@ -1,0 +1,75 @@
+# Project Blueprint
+
+## AI Development Guidelines
+
+These guidelines define the operational principles and capabilities of the AI agent interacting with this Next.js project.
+
+### Environment & Context Awareness
+
+*   **Project Structure (App Router):** The AI assumes a standard Next.js project structure using the App Router.
+*   **`dev.nix` Configuration:** The AI is aware of the `.idx/dev.nix` file for environment configuration.
+*   **Preview Server:** The AI will not run `next dev` but will monitor the output of the already running preview server.
+
+### Code Modification & Dependency Management
+
+*   **Core Code Assumption:** The AI will primarily work with React components (`.tsx` or `.jsx`).
+*   **Package Management:** The AI will use `npm` for package management.
+*   **Next.js CLI:** The AI will use `npm run build` and `npm run lint`.
+
+### Next.js Core Concepts (App Router)
+
+*   **Server Components by Default:** Data fetching will be done directly in Server Components.
+*   **`"use client"` Directive:** For components that require interactivity, state, or browser-only APIs.
+*   **File-based Routing:** Routing is managed by creating folders and `page.tsx` files.
+*   **Server Actions:** For data mutations, the AI will use Server Actions with the `"use server"` directive.
+
+### Automated Error Detection & Remediation
+
+*   **Post-Modification Checks:** After every code modification, the AI will run `npm run lint -- --fix` and monitor the IDE's diagnostics and dev server output.
+*   **Automatic Error Correction:** The AI will attempt to fix common Next.js and React errors.
+
+### Visual Design & Accessibility
+
+*   **Aesthetics:** The AI will create modern, visually balanced, and intuitive user interfaces.
+*   **Responsiveness:** The app will be mobile-responsive.
+*   **A11Y Standards:** The AI will implement accessibility features.
+
+### Iterative Development & User Interaction
+
+*   **Blueprint Management:** The AI will create and maintain this `blueprint.md` file, documenting the project overview, features, and current development plan.
+*   **Prompt Understanding:** The AI will interpret user prompts and ask for clarification when needed.
+*   **Contextual Responses:** The AI will provide conversational responses, explaining its actions and progress.
+
+---
+
+## Overview
+
+This is a Next.js application with a modern, responsive layout. It features a custom header with a search bar and a call-to-action button.
+
+## Project Structure
+
+- **/app** - The main application directory.
+  - **layout.tsx** - The root layout, which includes the header and main content area.
+  - **page.tsx** - The main page of the application.
+- **/components** - Reusable React components.
+  - **header.tsx** - The main header component.
+  - **/ui** - UI components from shadcn.
+    - **button.tsx**
+    - **input.tsx**
+- **/public** - Static assets.
+- **package.json** - Project dependencies and scripts.
+- **tailwind.config.ts** - Tailwind CSS configuration.
+
+## Current Change: Fancy Header
+
+- **Objective:** Create a modern, visually appealing header with a search bar and a "Get Started" button.
+- **Steps Taken:**
+  1. Installed `shadcn` and its dependencies.
+  2. Resolved a persistent build issue related to `tailwindcss-animate` by:
+     - Correcting `tailwind.config.ts`.
+     - Resetting `node_modules` and reinstalling dependencies.
+     - Removing a conflicting `@import` statement from `globals.css`.
+  3. Added `button` and `input` components from `shadcn`.
+  4. Created a new `Header` component (`components/header.tsx`).
+  5. Integrated the `Header` into the main application layout (`app/layout.tsx`).
+  6. Created this blueprint to document the project.

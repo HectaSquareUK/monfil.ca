@@ -1,23 +1,35 @@
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Search } from "lucide-react";
+import { ThemeToggle } from './theme-toggle';
+import { Heart, User, ShoppingCart } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Header() {
   return (
-    <header className="flex items-center justify-between p-4 bg-white dark:bg-gray-800 shadow-md">
-      <div className="flex items-center space-x-4">
-        <h1 className="text-2xl font-bold text-gray-900 dark:text-gray-100">My App</h1>
+    <header>
+      <div className="top-bar">
+        <span>Sign up and get 20% off to your first order. Sign Up Now</span>
+        <a href="#" className="shop-now-link">Shop Now</a>
       </div>
-      <div className="flex items-center space-x-4">
-        <div className="relative">
-          <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-gray-500 dark:text-gray-400" />
-          <Input
-            type="search"
-            placeholder="Search..."
-            className="pl-8 sm:w-[300px] md:w-[200px] lg:w-[300px] bg-gray-100 dark:bg-gray-700"
-          />
+      <div className="main-header">
+        <div className="logo">
+          <Image src="/logo.png" alt="monfil" width={100} height={50} />
         </div>
-        <Button>Get Started</Button>
+        <div className="user-actions">
+          <div>
+            <Heart />
+          </div>
+          <div>
+            <User />
+          </div>
+          <div>
+            <ShoppingCart />
+          </div>
+          <div>
+            <ThemeToggle />
+          </div>
+          <a href="#" className="checkout-button">
+            CHECKOUT
+          </a>
+        </div>
       </div>
     </header>
   );

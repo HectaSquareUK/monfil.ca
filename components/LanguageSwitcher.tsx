@@ -1,6 +1,13 @@
 'use client';
 
 import { usePathname, useRouter } from 'next/navigation';
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 export default function LanguageSwitcher() {
   const router = useRouter();
@@ -16,19 +23,14 @@ export default function LanguageSwitcher() {
   };
 
   return (
-    <div>
-      <button
-        onClick={() => handleLocaleChange('en')}
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-l"
-      >
-        English
-      </button>
-      <button
-        onClick={() => handleLocaleChange('fr')}
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-r"
-      >
-        Français
-      </button>
-    </div>
+    <Select onValueChange={handleLocaleChange} defaultValue={pathname.split('/')[1] || 'en'}>
+      <SelectTrigger className="w-[180px]">
+        <SelectValue placeholder="Language" />
+      </SelectTrigger>
+      <SelectContent>
+        <SelectItem value="en">English</SelectItem>
+        <SelectItem value="fr">Français</SelectItem>
+      </SelectContent>
+    </Select>
   );
 }
