@@ -33,6 +33,7 @@ export function middleware(request: NextRequest) {
       new URL(`/${locale}/${pathname}`, request.url)
     );
   }
+  return NextResponse.next();
 }
 
 export const config = {
