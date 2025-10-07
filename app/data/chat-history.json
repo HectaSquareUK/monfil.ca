@@ -1,5 +1,0 @@
-[
-  { "text": "Hello!", "isUser": false },
-  { "text": "Hi there!", "isUser": true },
-  { "text": "How can I help you today?", "isUser": false }
-]
