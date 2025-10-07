@@ -14,11 +14,11 @@ export default function Home() {
       </div>
       <div className="trending-grid">
         <div className="trending-item">
-          <Image src="/trending1.png" alt="Trending item 1" width={200} height={200} />
+          <Image src="/trending1.png/12.png" alt="Trending item 1" width={200} height={200} />
           <p>Trending item 1</p>
         </div>
         <div className="trending-item">
-          <Image src="/trending2.png" alt="Trending item 2" width={200} height={200} />
+          <Image src="/trending2.png/13.png" alt="Trending item 2" width={200} height={200} />
           <p>Trending item 2</p>
         </div>
         <div className="trending-item">

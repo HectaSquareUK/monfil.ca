@@ -78,6 +78,7 @@
 
 .logo img {
   max-height: 40px;
+  width: auto;
 }
 
 .user-actions {
@@ -132,6 +133,7 @@
 
 .trending-item img {
   width: 100%;
+  height: auto;
   border: 1px solid hsl(var(--border));
   margin-bottom: 0.5rem;
 }
