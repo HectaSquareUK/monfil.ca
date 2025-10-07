@@ -10,6 +10,8 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@eslint/compat": "^1.4.0",
+    "csv-parse": "^6.1.0",
     "firebase": "^12.3.0",
     "firebase-admin": "^13.5.0",
     "next": "15.5.4",
