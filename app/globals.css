@@ -51,6 +51,8 @@
   body {
     background-color: hsl(var(--background));
     color: hsl(var(--foreground));
+    width: 100vw;
+    overflow-x: hidden;
   }
 }
 
@@ -96,35 +98,25 @@
 }
 
 .main-content {
-  padding: 2rem;
+  padding: 0;
 }
 
 .hero-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  width: 100%;
   margin-bottom: 2rem;
 }
 
-.hero-text .breadcrumb {
-  font-size: 0.875rem;
-  color: hsl(var(--muted-foreground));
-}
-
-.hero-text h1 {
-  font-size: 4rem;
-  font-weight: bold;
-}
-
-.hero-discount p {
-  font-size: 1.5rem;
-  color: hsl(var(--foreground));
+.hero-video {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .trending-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 1rem;
+  padding: 2rem;
 }
 
 .trending-item {
